@@ -30,22 +30,22 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Carol Delwing"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="Hey there, my name is Carol Delwing"
+					tagline="I am an Engineer, DevOps student, and tech enthusiast currently based in Toronto, Ontario. I have created this site to share my professional experience, document my journey into DevOps, and provide a glimpse into my skills. Welcome!"
 					align="start"
 				>
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
+						<Pill><Icon icon='eng-logo' size="1.33em" /> Engineering</Pill>
+						<Pill><Icon icon='devops-logo' size="1.33em" /> DevOps</Pill>
+						<Pill><Icon icon='cloud-logo' size="1.33em" /> Cloud</Pill>
 					</div>
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="Carolina Delwing Rosa smiling in a black shirt"
 					width="480"
 					height="620"
-					src="/assets/portrait.jpg"
+					src="/assets/Imagem1.jpg"
 				/>
 			</header>
 
@@ -55,8 +55,8 @@ const projects = (await getCollection('work'))
 		<main class="wrapper stack gap-20 lg:gap-48">
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Selected Work</h3>
-					<p>Take a look below at some of my featured work for clients from the past few years.</p>
+					<h3>Highlighted Projects</h3>
+					<p>Below you will find some of the projects I have been working on. Stay tuned for weekly updates!</p>
 				</header>
 
 				<div class="gallery">
@@ -79,27 +79,6 @@ const projects = (await getCollection('work'))
 				</div>
 			</section>
 
-			<section class="section with-background bg-variant">
-				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
-					<p>
-						I have been fortunate enough to recieve praise for my work in several publications. Take
-						a look below to learn more.
-					</p>
-				</header>
-
-				<div class="gallery">
-					<Grid variant="small">
-						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
-								<li class="mention-card">
-									<p>{brand}</p>
-								</li>
-							))
-						}
-					</Grid>
-				</div>
-			</section>
 		</main>
 
 		<ContactCTA />
