@@ -13,4 +13,4 @@ tags:
 
 #### Objective
 
-<font size= "5"> In this quick tutorial, I’ll show you how to push an existing folder to GitHub. So If you’re thinking of uploading your projects to a GitHub repository, stay tuned. I’ll push a folder containing some of the Shell Scritps I wrote. Please check the complete tutorial <a href="medium.com/@caroldelwing/learning-git-basics-through-pushing-an-existing-project-to-github-shell-scripting-9597dbf5810f">here</a>.</font>
+<font size= "5"> In this quick tutorial, I’ll show you how to push an existing folder to GitHub. So If you’re thinking of uploading your projects to a GitHub repository, stay tuned. I’ll push a folder containing some of the Shell Scritps I wrote. Please check the complete tutorial <a href="https://medium.com/@caroldelwing/learning-git-basics-through-pushing-an-existing-project-to-github-shell-scripting-9597dbf5810f">here</a>.</font>
