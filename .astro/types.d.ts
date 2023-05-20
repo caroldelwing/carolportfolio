@@ -102,16 +102,16 @@ declare module 'astro:content' {
 
 	const entryMap: {
 		"work": {
-"markdown-mystery-tour.md": {
-  id: "markdown-mystery-tour.md",
-  slug: "markdown-mystery-tour",
+"Automate-Your-Web-Server-Deployment.md": {
+  id: "Automate-Your-Web-Server-Deployment.md",
+  slug: "automate-your-web-server-deployment",
   body: string,
   collection: "work",
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] },
-"nested/duvet-genius.md": {
-  id: "nested/duvet-genius.md",
-  slug: "nested/duvet-genius",
+"Git-Basics-Shell-Scripting.md": {
+  id: "Git-Basics-Shell-Scripting.md",
+  slug: "git-basics-shell-scripting",
   body: string,
   collection: "work",
   data: InferEntrySchema<"work">
