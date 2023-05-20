@@ -104,14 +104,14 @@ declare module 'astro:content' {
 		"work": {
 "Automate-Your-Web-Server-Deployment.md": {
   id: "Automate-Your-Web-Server-Deployment.md",
-  slug: "Automate-Your-Web-Server-Deployment",
+  slug: "Automate-your-web-server-deployment",
   body: string,
   collection: "work",
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] },
 "Git-Basics-Shell-Scripting.md": {
   id: "Git-Basics-Shell-Scripting.md",
-  slug: "Git-Basics-Shell-Scripting",
+  slug: "Git-basics-shell-scripting",
   body: string,
   collection: "work",
   data: InferEntrySchema<"work">
