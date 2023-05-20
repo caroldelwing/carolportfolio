@@ -34,12 +34,6 @@ const { Content } = await entry.render();
 				<div class="wrapper stack gap-2">
 					<a class="back-link" href="/work/"><Icon icon="arrow-left" /> Work</a>
 					<Hero title={entry.data.title} align="start">
-						<div class="details">
-							<div class="tags">
-								{entry.data.tags.map((t) => <Pill>{t}</Pill>)}
-							</div>
-							<p class="description">{entry.data.description}</p>
-						</div>
 					</Hero>
 				</div>
 			</header>
@@ -73,16 +67,6 @@ const { Content } = await entry.render();
 		gap: 1.5rem;
 		justify-content: space-between;
 		align-items: center;
-	}
-
-	.tags {
-		display: flex;
-		gap: 0.5rem;
-	}
-
-	.description {
-		font-size: var(--text-lg);
-		max-width: 54ch;
 	}
 
 	.content {
