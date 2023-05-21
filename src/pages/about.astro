@@ -10,40 +10,19 @@ import Hero from '../components/Hero.astro';
 		<main class="wrapper about">
 			<Hero
 				title="About"
-				tagline="Curious about my background? Check it out!"
-			>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/joyston-judah.jpg"
-					alt="Landscape with mountains"
-				/>
+				>
 			</Hero>
-
-			<section>
-				<h2 class="section-title">Experience</h2>
-				<div class="content">
-					<p><b><font size="5">Research and Development Engineer</font></b></p>
-					<p>Physical Metallurgy Laboratory - Federal University of Rio Grande do Sul, Brazil - 2022-2023</p>
-					<br>
-					<p><b><font size="5">Technical Analyst</font></b></p>
-					<p>Physical Metallurgy Laboratory - Federal University of Rio Grande do Sul, Brazil - 2020-2022</p>
-					<br>
-					<p><b><font size="5">Manufacturing Engineering Intern</font></b></p>
-					<p>STIHL Ferramentas Motorizadas LTDA, Brazil - 2018-2020</p>
-					<br>
-					<p><b><font size="5">Operations Engineering Intern – Aviation</font></b></p>
-					<p>Raízen SA, Brazil - 2018</p>
-					<br>
-					<p><b><font size="5">Undergraduate Scientific Researcher</font></b></p>
-					<p>Corrosion, Protection, and Material Recycling Laboratory - Federal University of Rio Grande do Sul, Brazil - 2016-2017</p>
-									
-				</div>
-			</section>
-			<section>
+				<p class="about-content">I am a qualified and result-driven engineer passionate about technology, 
+				innovation, and scalable solutions delivery. I carry 7 years of 
+				engineering experience improving processes and solving complex challenges, 
+				and this mindset brought me into the DevOps world. Currently, I am pursuing my 
+				DevOps studies at the Toronto Institute of Data Science and Technology (WeCloudData). 
+				I seek dynamic and stimulating environments where I can enhance my skills and contribute
+				 to the continued organization’s growth. <br><br>Tech stacks: Linux, Git, GitHub, AWS, Docker, Kubernetes, Python, Bash.</p>
+				<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
-					<p><b><font size="5">Applied DevOps Engineering</font></b></p>
+					<p><b><font size="5">Diploma in Applied DevOps Engineering</font></b></p>
 					<p>WeCloudData, Toronto, Canada - 2023</p>
 					<br>
 					<p><b><font size="5">Master of Science in Engineering</font></b></p>
@@ -52,8 +31,46 @@ import Hero from '../components/Hero.astro';
 					<p><b><font size="5">Bachelor in Engineering</font></b></p>
 					<p>Federal University of Rio Grande do Sul, Brazil - 2014-2019</p>
 				</div>
-			</section>		
+			</section>
 
+			<section>
+				<h2 class="section-title">Experience</h2>
+				<div class="content">
+					<p><b><font size="5">Research and Development Engineer</font></b></p>
+					<p><b><font size="5">Technical Analyst</font></b></p>
+					<p><i>Physical Metallurgy Laboratory - Federal University of Rio Grande do Sul, Brazil - 2020-2023</i></p>
+					<li>Promoted to R&D Engineer within 15 months due to strong performance;</li>
+					<li>Managed R&D projects, assuring team allocation and task completion under tight deadlines. The projects were related to integrity assessment of flexible pipes involving CO2 corrosion and fatigue;</li>
+					<li>Structured concise technical reports, bibliography writing, presentations, and dashboards to deliver 
+complex data. Moreover, conducted extensive data analysis using software such as HBM Catman, 
+Microsoft Excel, and MATLAB;</li>
+					<li>Supported project development through mechanical and chemical testing in agressive environments.</li>
+					<br>
+					<p><b><font size="5">Manufacturing Engineering Intern</font></b></p>
+					<p><i>STIHL Ferramentas Motorizadas LTDA, Brazil - 2018-2020</i></p>
+					<li>Developed and managed a project responsible for helping to decrease the rework rate of crankshafts heat 
+treatment by 80%. The project was awarded as one of the best projects at the STIHL Technical 
+Exhibition 2019;</li>
+					<li>Supported the heat treatment area, responsible for the heat treatment of more than 2,4 million parts/year, 
+through the development of visual management tools, dashboards, and analysis of quality data;</li>
+					<li>Performed daily analysis of heat-treated steel microstructures. 
+Besides, ran a daily follow-up of heat treatment process parameters to ensure the quality of the final 
+product and avoid process anomalies;</li>
+					<li>Conducted statistical data analysis of quality and production indicators, using Lean Six Sigma tools to improve the understanding of the process and its anomalies: 5W2H, Kaizen and PDCA, 5S, Control Charts, Standard Operating Procedure, and Project Model Canvas.</li>
+					<br>
+					<p><b><font size="5">Operations Engineering Intern – Aviation</font></b></p>
+					<p><i>Raízen SA, Brazil - 2018</i></p>
+					<li>Executed weekly operational activities such as fuel quality control, fuel stock management, aircraft 
+fueling monitoring, and maintenance management of 17 airports;</li>
+					<li>Administered safety indicators and operational costs, developing a dashboard to improve the 
+visualization of those parameters;</li>
+					<li>Facilitated communication with suppliers, airlines, and airport administrators.</li>
+					<br>
+					<p><b><font size="5">Undergraduate Scientific Researcher</font></b></p>
+					<p><i>Corrosion, Protection, and Material Recycling Laboratory - Federal University of Rio Grande do Sul, Brazil - 2016-2017</i></p>
+									
+				</div>
+			</section>
 						
 			<section>
 				<h2 class="section-title">Skills</h2>
@@ -118,6 +135,15 @@ import Hero from '../components/Hero.astro';
 
 	.content {
 		grid-column: 2 / 4;
+	}
+
+	.about-content{
+		grid-column: 1 / 4;
+		color: var(--gray-200);
+		font: 'Public Sans';
+		font-size:  25px;
+		text-align: justify;
+		line-height: 1.5;
 	}
 
 	.content :global(a) {
