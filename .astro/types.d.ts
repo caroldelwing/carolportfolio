@@ -109,6 +109,13 @@ declare module 'astro:content' {
   collection: "work",
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] },
+"Scoring-with-the-Cloud.md": {
+  id: "Scoring-with-the-Cloud.md",
+  slug: "Scoring-with-the-Cloud",
+  body: string,
+  collection: "work",
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] },
 "From-Zero-to-Cloud-in-15-Seconds.md": {
   id: "From-Zero-to-Cloud-in-15-Seconds.md",
   slug: "from-zero-to-cloud-in-15-seconds",
