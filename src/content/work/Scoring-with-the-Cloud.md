@@ -1,5 +1,5 @@
 ---
-title: Scoring with the Cloud - Building a High-Available NHL API Server and MongoDB Database on AWS
+title: Scoring with the Cloud - Building a Highly-Available NHL API Server and MongoDB Database on AWS
 publishDate: 2023-07-11 00:00:00
 img: /assets/project24.jpg
 img_alt: AWS Diagram
