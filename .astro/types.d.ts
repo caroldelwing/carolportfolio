@@ -130,9 +130,9 @@ declare module 'astro:content' {
   collection: "work",
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] },
-"Containerizing-a-Multi-Tier-Web-Application.md": {
-	id: "Containerizing-a-Multi-Tier-Web-Application.md",
-	slug: "Containerizing-a-Multi-Tier-Web-Application",
+"Containerizing-a-Multi-Container-Web-Application.md": {
+	id: "Containerizing-a-Multi-Container-Web-Application.md",
+	slug: "Containerizing-a-Multi-Container-Web-Application",
 	body: string,
 	collection: "work",
 	data: InferEntrySchema<"work">
