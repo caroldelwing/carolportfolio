@@ -109,9 +109,9 @@ declare module 'astro:content' {
   collection: "work",
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] },
-"Scoring-with-the-Cloud.md": {
-  id: "Scoring-with-the-Cloud.md",
-  slug: "Scoring-with-the-Cloud",
+"Containerizing-a-Multi-Tier-Web-Application.md": {
+  id: "Containerizing-a-Multi-Tier-Web-Application.md",
+  slug: "containerizing-a-multi-tier-web-application",
   body: string,
   collection: "work",
   data: InferEntrySchema<"work">
@@ -123,6 +123,20 @@ declare module 'astro:content' {
   collection: "work",
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] },
+"Scoring-with-the-Cloud.md": {
+  id: "Scoring-with-the-Cloud.md",
+  slug: "scoring-with-the-cloud",
+  body: string,
+  collection: "work",
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] },
+"Containerizing-a-Multi-Tier-Web-Application.md": {
+	id: "Containerizing-a-Multi-Tier-Web-Application.md",
+	slug: "Containerizing-a-Multi-Tier-Web-Application",
+	body: string,
+	collection: "work",
+	data: InferEntrySchema<"work">
+  } & { render(): Render[".md"] },
 "nested/Git-Basics-Shell-Scripting.md": {
   id: "nested/Git-Basics-Shell-Scripting.md",
   slug: "nested/git-basics-shell-scripting",
